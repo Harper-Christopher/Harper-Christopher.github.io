@@ -1,7 +1,7 @@
 function GetCurrentYear()
 {
-    var date = new Date();
-    document.getElementById("currentYear").innerHTML = date.getFullYear();
+    var dates = new Date();
+    document.getElementById("currentYear").innerHTML = dates.getFullYear();
 }
 
 function ModifiedDate(){
