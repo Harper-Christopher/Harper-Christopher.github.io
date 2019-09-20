@@ -5,7 +5,7 @@ function GetCurrentYear()
 }
 
 function ModifiedDate(){
-    document.getElementById("timeModified").innerHTML = alert(document.lastModified);
+    document.getElementById("timeModified").innerHTML = (document.lastModified);
 }
 
 function RefreshDates(){
