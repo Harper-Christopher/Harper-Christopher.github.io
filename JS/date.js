@@ -1,7 +1,7 @@
 function TheCurrentYear()
 {
     var year = new year();
-    var currentYear = year.getFullYear();
+    var currentDate = year.getFullYear();
     document.getElementById("currentyear").innerHTML = currentDate;
 }
 
