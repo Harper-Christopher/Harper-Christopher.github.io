@@ -4,6 +4,6 @@ function GetCurrentYear()
     document.getElementById("currentyear").innerHTML = date.getFullYear();
 }
 
-function RefreshDate(){
+function RefreshDates(){
 GetCurrentYear();
 }
