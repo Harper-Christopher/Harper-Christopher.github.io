@@ -1,8 +1,9 @@
 function GetCurrentYear()
 {
-    var year = new year();
-    var currentDate = year.getFullYear();
-    document.getElementById("currentyear").innerHTML = currentDate;
+    var date = new Date();
+    document.getElementById("currentyear").innerHTML = date.getFullYear();
 }
 
+function RefreshDate(){
 GetCurrentYear();
+}
