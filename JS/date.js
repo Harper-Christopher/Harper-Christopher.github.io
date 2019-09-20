@@ -5,3 +5,4 @@ function TheCurrentYear()
     document.getElementById("currentyear").innerHTML = currentDate;
 }
 
+TheCurrentYear();
