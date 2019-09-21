@@ -30,6 +30,7 @@ a:link {
 
 a:visited {
     color: #00ff88;
+    text-shadow: 2px 2px black
 }
 
 a:hover {
