@@ -4,7 +4,7 @@ header {
     font-family: verdana;
     border-radius: 15px;
     height: 120px;
-    width: 50%;
+    max-width: 900px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -13,14 +13,10 @@ header {
 
 }
 
-hr {
+main, hr {
+    max-width: 900px;
     margin-left: auto;
-    margin-right: 34%;
-}
-
-
-main {
-    margin-left: 25%;
+    margin-right: auto;
 }
 
 a:link {
@@ -46,7 +42,7 @@ footer {
     box-shadow: inset 0 0 15px;
     border-radius: 15px;
     height: 75px;
-    width: 50%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
