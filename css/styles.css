@@ -9,9 +9,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    display: flex;
-
-
 }
 
 main, hr {
@@ -62,6 +59,7 @@ h1 {
     font-family: Verdana;
     text-shadow: 2px 2px black;
     font-size: 36px;
+    display: flex;
 }
 
 h2 {
