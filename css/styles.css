@@ -46,9 +46,10 @@ footer {
 
 img {
     float: right;
-    width: 180px;
     box-shadow: 0px 0px 50px #0f1113;
-    display:flex;
+    max-width: 25%;
+    min-width: 125px;
+    margin: auto;
 }
 
 h1 {
@@ -58,7 +59,6 @@ h1 {
     text-shadow: 2px 2px black;
     font-size: 30px;
     padding: 20px;
-    display: flex;
 }
 
 h2 {
