@@ -7,7 +7,7 @@ header {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: auto;
+    padding: 15px;
 }
 
 main, hr {
@@ -50,6 +50,7 @@ img {
     max-width: 25%;
     min-width: 125px;
     margin: auto;
+    padding: auto;
 }
 
 h1 {
@@ -58,8 +59,6 @@ h1 {
     font-family: 'Cabin Sketch', cursive;
     text-shadow: 2px 2px black;
     font-size: 50px;
-    padding: auto;
-    
 }
 
 h2 {
@@ -69,6 +68,7 @@ h2 {
 
 ul {
     font-family: courier new;
+    font-weight: bold;
     font-size: 19px;
 }
 
