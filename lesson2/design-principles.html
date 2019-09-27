@@ -8,10 +8,10 @@
     content="W02 Design Principles Document">
   <title>W02 Design Principles Document</title>
   <link href="https://fonts.googleapis.com/css?family=Black+Ops+One%7cCabin+Sketch%7cFreckle+Face%7cFredericka+the+Great%7cPress+Start+2P" rel="stylesheet">
- 
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body onload="RefreshDates()">
   <header>
       <h1>W02 Design Princple Document</h1>
   </header>
@@ -39,18 +39,33 @@
 
     <img id="photo" src="img/amazon.jpg" alt="Photo of Amazon's Website">
 
-    <p></p>
+    <p>Amazon has always been one to keep me pre-occupied looking for things I need. But through the filters they have, 
+      I feel it is a perfect example of Hick's Law as they can turn a page that has endless items to scroll through which
+      can make it almost impossible to find exactly what you're looking for. With the filters they've made it so you can 
+      filter your search to find anything from brands, to customer reviews. This has helped reduce the time spent 
+      looking through things that might not be an exact match for what you were looking for.
+    </p>
 
-    <h2>Principle Three</h2>
+    <h2>Fitt's Law</h2>
 
     <ul>
-        <li>Thrid Website: <a target="blank" href="index.html">Link</a>|</li>
+        <li>Mormon Message Videos: <a target="blank" href="https://www.churchofjesuschrist.org/inspiration/latter-day-saints-channel/watch/series/mormon-messages/the-will-of-god-2?lang=eng">The Church Of Jesus Christ's Link</a></li>
     </ul>
+
+    <img id="photo" src="img/thewillofgod.jpg" alt="Photo of The Will Of God video">
+
+    <p>Taken from one of my favorite church videos, I believe this is a perfect example of Fitt's Law as they've made 
+      the play button very large in the middle of the video so it's quick and easy to use as explained in the Fitt's Law example. </p>
 
   </main>
 
-  
-  
+  <footer>
+      <h4>&copy; <span id="currentYear"></span> | Christopher Harper | Utah | <a href="https://www.byui.edu/online">BYUI
+          Online Learning</a><br>    
+        Modified <span id="timeModified"></span>
+      </h4>
+    </footer>
+    <script src="js/date.js"></script>
 </body>
 
 </html>
