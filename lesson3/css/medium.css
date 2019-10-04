@@ -1,0 +1,23 @@
+/* Tablet View CSS */
+@media only screen and (min-width: 32.5em){
+
+    nav li {
+        float: left; 
+        margin-right: 15px;
+    }
+
+    main {
+        clear: both;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    img {
+        display: block;
+        width: 20%;
+        height: auto;
+    }
+    
+}
