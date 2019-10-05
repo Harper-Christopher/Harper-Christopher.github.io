@@ -14,10 +14,11 @@
         font-size: 1rem;
     }
 
-    img {
+    #logo {
         display: block;
         width: 20%;
         height: auto;
+        float: left;
     }
 
     h1 {
