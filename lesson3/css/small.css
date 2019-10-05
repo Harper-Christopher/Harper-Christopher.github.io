@@ -1,17 +1,7 @@
 /* Phone view CSS */
 
-header,
-footer {
-	background-color: #00bfff;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-}
-
-header, nav, footer {
-    background-color: #00bfff;
+header, footer{
+    background-color: #4995b0;
     box-shadow: inset 0 0 6px;
     border-radius: 15px;
     width: auto;
@@ -20,18 +10,26 @@ header, nav, footer {
 }
 
 main {
-    background-color: #36454f;
+    background-color: #d9d9d9;
     box-shadow: inset 0 0 6px;
     border-radius: 15px;
     width: auto;
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
 nav {
 	background-color: #36454f;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
+    box-shadow: 0 2px 15px gray;
+    display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    padding: 10px;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 nav ul {
 	list-style-type: none;
@@ -41,24 +39,24 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: #fff;
+	color: #ffffff;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+	font-size: .7rem;
 }
 nav a:hover {
 	background-color: #41535f;
-    color: #00bfff;
+    color: #4995b0;
     border-radius: 15px;
 }
 
 a:link {
-    color: white;
+    color:#40c9a2;
 }
 
 a:visited {
-    color: #00ff88;
+    color: #d9d9d9;
     text-shadow: 2px 2px black
 }
 
@@ -67,79 +65,87 @@ a:active {
     color: black;
 }
 
-footer {
-    background-color: #00bfff;
-    box-shadow: inset 0 0 6px;
-    border-radius: 15px;
-    height: 100px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+#pic {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
 }
 
 img {
+    display: block;
+    margin: 0 auto;
     box-shadow: 0px 0px 18px #0f1113;
     width: 20%;
     height: auto;
     border-radius: 10px;
-    float: left; 
 }
 
 h1 {
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: 'Cabin Sketch', cursive;
     text-shadow: 2px 2px black;
-    font-size: 2.5rem;
-    margin: 0.15rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 auto;
 }
 
 h2 {
     font-family: 'Cabin Sketch', cursive;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    background-color: #00bfff;
+    background-color: #4995b0;
     border-radius: 10px;
     text-align: center;
     box-shadow: inset 0 0 20px;
-    color: white;
+    color: #ffffff;
     text-shadow: 2px 2px black;
 }
 
 ul {
-    font-family: courier new;
+    font-family: 'Cabin', sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: .9rem;
+    color: #36454f;
 }
 
 ol {
-    font-family: courier new;
+    font-family: 'Cabin', sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: .9rem;
+    color: #36454f;
+    padding: 7%;
 }
 
 h4 {
-    color: white;
+    color: #ffffff;
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Cabin', sans-serif;
     text-shadow: 2px 2px black;
     padding: 20px;
-    font-size: 1.1rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 
 p {
-    font-family: Verdana;
-    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: #36454f;
+    padding: 2%;
+    font-size: .8rem;
+    
 }
 
 h3 {
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: 'Cabin Sketch', cursive;
     text-shadow: 2px 2px black;
     font-size: 2.0rem;
     margin: 0.15rem;
     font-weight: bold;
+}
+
+hr {
+    padding: .1%;
 }
