@@ -1,11 +1,21 @@
 /* Phone view CSS */
 
-header, footer{
+header {
     background-color: #4995b0;
     box-shadow: inset 0 0 6px;
     border-radius: 15px;
     width: auto;
-    height: auto'
+    height: 165px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #4995b0;
+    box-shadow: inset 0 0 6px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -20,40 +30,43 @@ main {
 }
 
 nav {
-	background-color: #36454f;
-	text-align: center;
+    background-color: #36454f;
+    text-align: center;
     box-shadow: 0 2px 15px gray;
     display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     max-width: 850px;
     margin: 0 auto;
     border-radius: 10px;
 }
+
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
 nav li a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: .7rem;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: .7rem;
 }
+
 nav a:hover {
-	background-color: #41535f;
+    background-color: #41535f;
     color: #4995b0;
     border-radius: 15px;
 }
 
 a:link {
-    color:#40c9a2;
+    color: #40c9a2;
 }
 
 a:visited {
@@ -75,12 +88,25 @@ a:active {
 }
 
 #logo {
-    display: block;
+    display: flex;
     box-shadow: 0px 0px 18px #0f1113;
     width: 20%;
     height: auto;
     margin: auto;
     border-radius: 10px;
+    border-style: solid;
+    border-color: #d9d9d9;
+}
+
+#example {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    box-shadow: 0px 0px 18px #0f1113;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #d9d9d9;
 }
 
 h1 {
@@ -135,7 +161,7 @@ p {
     color: #36454f;
     padding: 2%;
     font-size: .8rem;
-    
+
 }
 
 h3 {
