@@ -1,9 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .logo {
     padding: 10px;
     display: flow-root;
 }
 
-header, footer {
+header {
+    background-color: #4995b0;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 6px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
     background-color: #4995b0;
     box-shadow: inset 0 0 6px;
     border-radius: 15px;
@@ -12,9 +30,22 @@ header, footer {
     text-align: center;
 }
 
+.headings {
+    margin: 0 0 0 17px;
+}
+
+.moto {
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 2px 2px black;
+    font-size: 1rem;
+}
+
 nav {
     margin: 0 auto;
     max-width: 900px;
+    font-family: 'Cabin', sans-serif;
     background-color: #36454f;
     box-shadow: 0 2px 15px black;
     border-radius: 5px;
@@ -54,4 +85,32 @@ nav {
 
 .responsive li {
 	display: block;
+}
+
+a {
+    color: #40c9a2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9d9d9;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+h4 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: 2px 2px black;
+    padding: 20px;
+    font-size: .9rem;
+    font-weight: bold;
 }
