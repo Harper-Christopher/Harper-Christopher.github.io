@@ -4,13 +4,14 @@ function GetCurrentYear()
     document.getElementById("currentYear").innerHTML = dates.getFullYear();
 }
 
-function ModifiedDate(){
-    document.getElementById("timeModified").innerHTML = (document.lastModified);
+function TodaysDate(){
+    var date = new Date();
+    document.getElementById("todaysDate").innerHTML = date;
 }
 
 function RefreshDates(){
 GetCurrentYear();
-ModifiedDate();
+TodaysDate();
 }
 
 function toggleMenu() {
