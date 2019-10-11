@@ -2,19 +2,11 @@
 @media only screen and (min-width: 32.5em) {
 
     footer {
-        max-width: 75%;
+        max-width: 750px;
     }
 
     .hero, .forcast, .article, .contact {
-        max-width: 75%;
-    }
-    
-    main {
-        max-width: 900px;
-    }
-
-    nav a {
-        font-size: 1rem;
+        max-width: 700px;
     }
 
     h1 {
@@ -26,7 +18,7 @@
     }    
 
     nav li a {
-        font-size: .9rem;
+        font-size: 1em;
     }
 
     p {

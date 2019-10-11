@@ -5,6 +5,7 @@ function GetCurrentYear()
 }
 
 function TodaysDate(){
+    /* date.toLocaleDateString("en-gb", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }); */
     var currentDate = new Date();
     var currentDay = currentDate.getDay();
     if (currentDay == 0) {
@@ -27,9 +28,6 @@ function TodaysDate(){
     }
     else if (currentDay == 6) {
         var currentDay = "Saturday";
-    }
-    else {
-        var currentDay = "An Error Has Occured.";
     }
 
     var currentMonth = currentDate.getMonth();
