@@ -41,10 +41,13 @@ main {
 .hero {
     position: relative;
     margin: 10px auto;
-    position: relative;
     box-shadow: inset 0 0 6px;
     border-radius: 15px;
     text-align: center;
+}
+
+#farm {
+    max-width: 100%;
 }
 
 .stats {
@@ -81,7 +84,8 @@ main {
 }
 
 #articlepic {
-    padding: 15px;
+    padding: 25px;
+    max-width: 340px;
 }
 
 #articlep {
