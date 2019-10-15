@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Station Creation">
+    <title>Weather Station Creation</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Black+Ops+One%7cCabin+Sketch%7cFreckle+Face%7cFredericka+the+Great%7cPress+Start+2P%7Cabin"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body onload="RefreshDates()">
+    <div class="hiddenmessage">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <img class="logo" src="images/weatherlogo.jpg" alt="Weather Station Creation Logo photo">
+        <section class="headings">
+            <h1>Weather Station Creation</h1>
+            <div class="moto">If you don't like the weather, wait 5 minutes.</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="hero">
+            <img src="images/barn.jpg">
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: <span id="currently">Sunny</span></p>
+                <p>High: <span id="high">76 F</span></p>
+                <p>Wind Chill: <span id="windchill">F</span></p>
+                <p>Humidity: <span id="humidity">69%</span></p>
+                <p>Wind Speed: <span id="windspeed">5 mph</span></p>
+            </section>
+        </div>
+        <div class="forcast">
+            <h2>5 Day Forecast</h2>
+        </div>
+        <div class="article">
+            <section>
+            <h4>Article</h4>
+            <div>By Some Author</div>
+            <p id="articlep">This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.This is where all the article information is going to be.</p>
+            </section>
+            <img id="articlepic" src="images/article.jpg">
+        </div>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <div>This is where all the contact info goes.</div>
+            <section><img id="prestonmap" src="images/prestonmap.jpg"></section>
+        </div>
+    </main>
+
+    <footer>
+        <h4>&copy; <span id="currentYear"></span> | Weather Creation Station | Christopher Harper
+            <!--| <a
+                href="https://www.byui.edu/online">BYUI
+                Online Learning</a>k --><br>
+            <span id="todaysDate"></span>
+        </h4>
+    </footer>
+    <script src="js/date.js"></script>
+
+</body>

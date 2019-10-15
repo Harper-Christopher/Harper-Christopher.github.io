@@ -1,0 +1,49 @@
+/* Tablet View CSS */
+@media only screen and (min-width: 32.5em) {
+
+    footer {
+        max-width: 725px;
+    }
+
+    .hero, .article, .contact {
+        max-width: 700px;
+    }
+
+    .forcast {
+        display: block;
+        max-width: 700px
+    }
+
+    #prestonmap {
+       display: block;
+       align-content: center;
+    }
+
+    .message {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }    
+
+    nav li a {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+}
