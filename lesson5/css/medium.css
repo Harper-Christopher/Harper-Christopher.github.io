@@ -16,7 +16,8 @@
 
     #prestonmap {
        display: block;
-       align-content: center;
+       margin: 0 auto;
+       padding: 25px;
     }
 
     .message {
