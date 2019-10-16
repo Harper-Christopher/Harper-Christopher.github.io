@@ -1,21 +1,8 @@
 /* Tablet View CSS */
 @media only screen and (min-width: 32.5em) {
 
-    footer {
-        max-width: 725px;
-    }
-
-    .hero, .contact {
-        max-width: 700px;
-    }
-
     .forcast {
         display: block;
-        max-width: 700px
-    }
-
-    table {
-        max-width: 700px;
     }
 
     th {
@@ -24,15 +11,14 @@
 
     .article {
         display: flex;
-        max-width: 700px;
     }
 
-    .articlepic {
-        max-width: 100%;
+    #articlepic {
+        float: right;
     }
 
     #prestonmap {
-       display: block;
+       display: flex;
        margin: 0 auto;
        padding: 25px;
     }

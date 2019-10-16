@@ -54,7 +54,7 @@ main {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: radial-gradient(white, #4995b0);
+    background: radial-gradient(#41535f, #4995b0);
     border: 1px solid #000;
     padding: 5px;
     box-shadow: 0 0 30px #111;
@@ -119,7 +119,7 @@ td {
 }
 
 .contact {
-    display: block;
+    display: flex;
     margin: 0 auto;
     background-color: #d9d9d9;
     box-shadow: 0 0 10px black;
@@ -127,7 +127,19 @@ td {
     text-align: center;
     color: white;
     text-shadow: 2px 2px black;
-    font-size: .9rem;
+    font-size: 1.4rem;
+}
+
+#contactinfo {
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#email {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.4rem;
 }
 
 #prestonmap {
