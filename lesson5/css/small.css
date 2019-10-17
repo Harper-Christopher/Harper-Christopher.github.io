@@ -11,11 +11,11 @@ body {
     border-radius: 25px;
 }
 
-#hiddenmessage {
+.hiddenmessage {
     display: none;
 }
 
-#message{
+.message{
     display: block;
     background-color: yellow;
     text-align: center;
