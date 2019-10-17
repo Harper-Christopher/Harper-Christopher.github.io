@@ -82,8 +82,11 @@ function toggleMenu() {
 }
 
 function Message() {
-    var currentDay = 5;
-    if (currentDate == 5) {
-    
+    var currentDay = new Date();
+    if (currentDay.getDay() == 3) {
+        document.getElementById("message");
+    }
+    else {
+        document.getElementById("hiddenmessage");
     }
 }

@@ -11,16 +11,16 @@ body {
     border-radius: 25px;
 }
 
-.hiddenmessage {
+#hiddenmessage {
     display: none;
+}
+
+#message{
+    display: block;
     background-color: yellow;
     text-align: center;
     font-weight: bold;
     font-size: 1rem;
-}
-
-.message{
-    display: block;
 }
 
 header {
@@ -58,7 +58,7 @@ main {
     border: 1px solid #000;
     padding: 5px;
     box-shadow: 0 0 30px #111;
-    opacity: .9;
+    opacity: 1;
     font-size: 11px;
 }
 

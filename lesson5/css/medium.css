@@ -23,8 +23,8 @@
        padding: 25px;
     }
 
-    .message {
-        font-size: 1.5rem;
+    #message {
+        font-size: 1.3rem;
     }
 
     h1 {
