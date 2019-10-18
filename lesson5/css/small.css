@@ -8,7 +8,7 @@ body {
     display: flow-root;
     border-style: solid;
     border-color: #d9d9d9;
-    border-radius: 25px;
+    border-radius: 1rem;
 }
 
 .hiddenmessage {
@@ -30,7 +30,7 @@ header {
     align-items: center;
     justify-content: center;
     box-shadow: inset 0 0 6px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 1rem 1rem 0 0;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ main {
 
 .stats {
     position: absolute;
-    top: 1rem;
+    top: .4rem;
     left: 1rem;
     background: radial-gradient(#41535f, #4995b0);
     border: 1px solid #000;
@@ -60,6 +60,7 @@ main {
     box-shadow: 0 0 30px #111;
     opacity: 1;
     font-size: 11px;
+    margin: 1rem .9rem;
 }
 
 #currently, #high, #windchill, #humidity, #windspeed {
@@ -144,6 +145,7 @@ td {
 
 #prestonmap {
     display: none;
+    max-width: 100%;
 }
 
 footer {
@@ -261,6 +263,7 @@ h4 {
 p {
     color: white;
     text-shadow: 1px 1px black;
+    margin: 5px;
 }
 
 
