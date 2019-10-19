@@ -147,16 +147,14 @@ td {
     display: block;
     margin: 0 auto;
     padding: 25px;
-}
-
-#facebook {
-    border-radius: 100px;
+    font-size: 1.2rem;
+    align-content: center;
+    align-items: center;
 }
 
 #email {
     color: white;
     text-shadow: 2px 2px black;
-    font-size: 1.4rem;
 }
 
 #prestonmap {
