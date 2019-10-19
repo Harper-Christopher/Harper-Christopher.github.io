@@ -15,6 +15,7 @@
 
     #articlepic {
         float: right;
+        width: 340px;
     }
 
     #prestonmap {
@@ -30,7 +31,7 @@
     #contactinfo {
         font-size: 1.5rem;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
