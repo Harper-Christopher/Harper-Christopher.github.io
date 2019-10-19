@@ -36,6 +36,7 @@ header {
 
 main {
     margin: 0 auto;
+    min-width: 320px;
 }
 
 .hero {
@@ -61,6 +62,10 @@ main {
     opacity: 1;
     font-size: 11px;
     margin: 1rem .9rem;
+}
+
+.stats p {
+    color: white;
 }
 
 #currently, #high, #windchill, #humidity, #windspeed {
@@ -109,6 +114,11 @@ td {
     text-align: center;
 }
 
+.author {
+    font-style: italic;
+    font-size: 1rem;
+}
+
 #articlepic {
     padding: 25px;
     max-width: 340px;
@@ -117,6 +127,8 @@ td {
 
 #articlep {
     padding: 20px;
+    color: black;
+   
 }
 
 .contact {
@@ -137,6 +149,10 @@ td {
     padding: 25px;
 }
 
+#facebook {
+    border-radius: 100px;
+}
+
 #email {
     color: white;
     text-shadow: 2px 2px black;
@@ -146,6 +162,7 @@ td {
 #prestonmap {
     display: none;
     max-width: 100%;
+    min-width: 0;
 }
 
 footer {
@@ -262,7 +279,6 @@ h4 {
 
 p {
     color: white;
-    text-shadow: 1px 1px black;
     margin: 5px;
 }
 
