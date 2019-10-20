@@ -18,15 +18,15 @@
     }
 
     footer {
-        max-width: 1475px;
+        max-width: 1175px;
     }
     
     .hero, .forcast, .article, .contact {
-        max-width: 1450px;
+        max-width: 1150px;
     }
 
     table {
-        max-width: 1450px;
+        max-width: 1150px;
     }
 
     th {
