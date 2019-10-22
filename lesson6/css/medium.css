@@ -1,0 +1,62 @@
+/* Tablet View CSS */
+@media only screen and (min-width: 32.5em) {
+
+    .forcast {
+        display: block;
+    }
+
+    th {
+        font-size: 1.1rem;
+    }
+
+    .article {
+        display: flex;
+    }
+
+    #articlepic {
+        float: right;
+        width: 340px;
+    }
+
+    #prestonmap {
+       display: flex;
+       margin: 0 auto;
+       padding: 25px;
+    }
+
+    .message {
+        font-size: 1.3rem;
+    }
+
+    #contactinfo {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }    
+
+    nav li a {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+}
