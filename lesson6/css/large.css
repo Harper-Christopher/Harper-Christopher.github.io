@@ -1,5 +1,5 @@
 /* Wide Desktop view*/
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1150px) {
     .navigation {
         display: flex;
     }
@@ -23,6 +23,20 @@
     
     .hero, .forcast, .article, .contact {
         max-width: 1150px;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        display: block;
+        display: block;
+        position: absolute;
+        bottom: 12px;
+        right: 16px;
+        font-size: 3rem;
+        color: white;
     }
 
     table {

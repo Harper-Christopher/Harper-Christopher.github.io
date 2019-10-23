@@ -51,6 +51,22 @@ main {
     box-shadow: 0 0 15px black;
 }
 
+.small {
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.medium {
+    display: none;
+}
+
+.large {
+    display: none;
+}
+
 .stats {
     position: absolute;
     top: .4rem;
@@ -120,9 +136,7 @@ td {
 
 #articlepic {
     padding: 25px;
-    max-width: 340px;
-    max-height: 340px;
-    width: 270px;
+    max-width: 100%;
 }
 
 #articlep {

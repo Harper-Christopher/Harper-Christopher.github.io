@@ -1,8 +1,21 @@
 /* Tablet View CSS */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 768px) {
 
     .forcast {
         display: block;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display: block;
+        position: absolute;
+        bottom: 12px;
+        right: 16px;
+        font-size: 2.3rem;
+        color: white;
     }
 
     th {
@@ -15,7 +28,6 @@
 
     #articlepic {
         float: right;
-        width: 340px;
     }
 
     #prestonmap {
