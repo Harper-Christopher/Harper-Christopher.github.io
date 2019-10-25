@@ -1,5 +1,5 @@
 /* Tablet View CSS */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 520px) {
 
     .forcast {
         display: block;
