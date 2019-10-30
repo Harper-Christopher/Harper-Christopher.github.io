@@ -9,8 +9,9 @@ img {
   margin: 7px;
   box-shadow: 5px 5px 10px grey;
   border-radius: 10px;
+  max-width: 300px;
 }
-/*
+
 img[data-src] {
     filter: blur(0.2em);
   }
@@ -19,7 +20,7 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
-*/
+
 h1 {
     font-weight: bolder;
   }
