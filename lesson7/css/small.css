@@ -1,4 +1,5 @@
 /* Phone View */
+/* CSS for Preston Page */
 body {
     padding: 0;
     margin: 0;
@@ -309,3 +310,51 @@ p {
     color: white;
     background-color: #41535f;
 }
+
+/* CSS for gallery page. */
+.caption {
+    display: none;
+    font-size: 2rem;
+    font-family: 'Cabin', sans-serif;
+    background-color: #d9d9d9;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+    width: 500px;
+}
+
+figure {
+    width: auto;
+    max-width: max-content;
+    margin: 20px;
+}
+
+figcaption {
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+figure img{
+    margin: 7px 0 0 0;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    width: 100%;
+}
+  
+  img[data-src] {
+      filter: blur(0.2em);
+    }
+    
+  img {
+      filter: blur(0em);
+      transition: filter 0.5s;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        justify-content: center;
+        align-content: center;
+    }

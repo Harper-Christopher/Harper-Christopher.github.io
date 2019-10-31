@@ -86,4 +86,14 @@
     h4 {
         font-size: 1.3rem;
     }
+
+    /* CSS for gallery page */
+   .caption {
+        display: block;
+        width: 100%;
+    }
+
+    figure:hover {
+        box-shadow: 0 0 40px black;
+    }
 }
