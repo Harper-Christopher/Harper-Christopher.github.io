@@ -88,7 +88,12 @@
     }
 
     /* CSS for gallery page */
-   .caption {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+   }
+
+    figcaption {
         display: block;
         width: 100%;
     }

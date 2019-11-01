@@ -1,5 +1,5 @@
 /* Tablet View CSS */
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 768px) {
 
     .forcast {
         display: block;
@@ -70,5 +70,10 @@
 
     h4 {
         font-size: 1.1rem;
+    }
+
+    /* CSS for gallery page. */
+    .gallery {
+        grid-template-columns: 1fr 1fr;
     }
 }

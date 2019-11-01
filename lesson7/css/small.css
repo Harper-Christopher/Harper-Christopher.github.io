@@ -312,34 +312,29 @@ p {
 }
 
 /* CSS for gallery page. */
-.caption {
-    display: none;
-    font-size: 2rem;
-    font-family: 'Cabin', sans-serif;
-    background-color: #d9d9d9;
-    text-align: center;
-    border: 2px solid black;
-    margin: 0;
-    width: 500px;
-}
-
 figure {
-    width: auto;
-    max-width: max-content;
-    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px 10px 0 0;
+    max-width: 500px;
 }
 
 figcaption {
+    display: none;
+    font-size: 1rem;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    border: 2px solid black;
     padding: 5px;
     margin: 0;
-    border-radius: 5px;
+    background-color: #36454f;
+    color: #ffffff;
 }
 
 figure img{
-    margin: 7px 0 0 0;
     max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px 10px 0 0;
     width: 100%;
 }
   
@@ -354,7 +349,6 @@ figure img{
 
     .gallery {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-        justify-content: center;
-        align-content: center;
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
     }
