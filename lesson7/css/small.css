@@ -313,15 +313,16 @@ p {
 
 /* CSS for gallery page. */
 figure {
-    display: flex;
-    flex-flow: column;
+    display: table;
     box-shadow: 5px 5px 10px grey;
     border-radius: 10px 10px 0 0;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 figcaption {
-    display: none;
+    
+    display: table-caption;
+    caption-side: bottom;
     font-size: 1rem;
     font-family: 'Cabin', sans-serif;
     text-align: center;
@@ -330,10 +331,11 @@ figcaption {
     margin: 0;
     background-color: #36454f;
     color: #ffffff;
+    box-shadow: 5px 5px 10px grey;
 }
 
 figure img{
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 10px 10px 0 0;
     width: 100%;
 }
@@ -351,4 +353,11 @@ figure img{
         display: grid;
         grid-template-columns: 1fr;
         padding-bottom: 20px;
+    }
+
+    .weather {
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 2rem;
+        font-weight: bolder;
+        text-decoration: underline;
     }

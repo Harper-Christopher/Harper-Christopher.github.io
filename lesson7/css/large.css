@@ -91,14 +91,16 @@
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
-   }
 
-    figcaption {
-        display: block;
-        width: 100%;
+    figcaption:hover {
+        box-shadow: 0 0 40px black;
     }
 
     figure:hover {
         box-shadow: 0 0 40px black;
+    }
+
+    .weather {
+        font-size: 4.3rem;
     }
 }

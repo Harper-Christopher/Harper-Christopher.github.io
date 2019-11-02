@@ -76,4 +76,8 @@
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
+
+    .weather {
+        font-size: 3.5rem;
+    }
 }
