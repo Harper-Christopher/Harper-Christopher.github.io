@@ -92,10 +92,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    figcaption:hover {
-        box-shadow: 0 0 40px black;
-    }
-
     figure:hover {
         box-shadow: 0 0 40px black;
     }

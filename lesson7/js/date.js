@@ -74,16 +74,6 @@ function TodaysDate(){
 function RefreshDates(){
 GetCurrentYear();
 TodaysDate();
-Message();
 }
 
-function toggleMenu() {
-	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-}
 
-function Message() {
-    var currentDay = new Date();
-    if (currentDay.getDay() == 5) {
-       document.getElementById("pancakes").classList.toggle("message");
-    }
-}
