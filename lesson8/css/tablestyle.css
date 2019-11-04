@@ -19,9 +19,8 @@ tbody tr:nth-child(odd) {
     background-color: #e7ffed;
 }
 
-tbody tr:nth-child() {
+tbody tr:nth-child(5) td:nth-child(1) {
     font-style: italic;
-    background-color: pink;
 }
 
 thead tr th, tfoot {
@@ -35,14 +34,14 @@ thead tr td {
 }
 
 thead tr th {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 tfoot {
     font-size: .7rem;
 }
 
-.blackfriday {
+.novsalesgoal {
     color: white;
     background-color: #628ca6;
 }
