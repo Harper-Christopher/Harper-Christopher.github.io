@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Station Creation">
+    <meta name="author" content="Christopher Harper">
+    <title>Weather Station Creation</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Black+Ops+One%7cCabin+Sketch%7cFreckle+Face%7cFredericka+the+Great%7cPress+Start+2P%7Cabin"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body onload="RefreshDates()">
+    <div id="pancakes" class="hiddenmessage">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion.
+    </div>
+    <header>
+        <img class="logo" src="images/weatherlogo.jpg" alt="Weather Station Creation Logo photo">
+        <section class="headings">
+            <h1>Weather Station Creation</h1>
+            <div class="moto">If you don't like the weather, wait 5 minutes.</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="weather">Weather Gallery</div>
+    <main class="gallery">
+        
+        <figure>
+                <img src="images/placeholder.png" data-src="images/cloudy-400w.jpg" alt="picture of clouds over a field.">
+        <figcaption class="caption">Cloudy</figcaption>     
+        </figure>   
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/fog-400w.jpg" alt="picture of fog around a tree.">
+        <figcaption class="caption">Foggy</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/hurricane-400w.jpg" alt="picture of a hurricane from space.">
+                <figcaption class="caption">Hurricane</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/lightning-400w.jpg" alt="picture of lightning in a city.">
+                <figcaption class="caption">Lightning</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/rainbow-400w.jpg" alt="picture of a rainbow in a field.">
+                <figcaption class="caption">Rainbow</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/raining-400w.jpg" alt="picture of rain on a road.">
+                <figcaption class="caption">Rain</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/snow-400w.jpg" alt="picture of snow with trees">
+                <figcaption class="caption">Snow</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/sunny-400w.jpg" alt="picture of sun coming up on a farm.">
+                <figcaption class="caption">Sunny</figcaption>
+        </figure>
+
+        <figure>
+                <img src="images/placeholder.png" data-src="images/windy-400w.jpg" alt="picture of wind blowing through a palm tree">
+                <figcaption class="caption">Windy</figcaption>
+        </figure>
+
+    </main>
+
+    <footer>
+        <h4>&copy; <span id="currentYear"></span> | Weather Creation Station | Christopher Harper
+            <!--| <a
+                href="https://www.byui.edu/online">BYUI
+                Online Learning</a>k --><br>
+            <span id="todaysDate"></span>
+        </h4>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/message.js"></script>
+</body>
+
+</html>
