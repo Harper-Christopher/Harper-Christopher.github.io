@@ -357,3 +357,18 @@ figure img{
         text-decoration: underline;
         padding: 15px;
     }
+
+    /*CSS for Storm Center Page*/
+    form {
+        background-color: #d9d9d9;
+    }
+
+    /*
+    form label.top input:required {
+        border-left: red solid 6px;
+    }
+
+    form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+    */
