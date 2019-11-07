@@ -506,3 +506,9 @@ figure img{
           box-shadow: 6px 6px 10px #41535f;
           text-align: center;
       }
+
+      .h1style {
+          color: #4995b0;
+          text-shadow: none;
+          font-weight: bolder;
+      }
