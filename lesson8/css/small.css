@@ -385,16 +385,21 @@ figure img{
 
     form label.contactform input, form label.contactform select {
         display: block;
-        font-size: 1rem;
         border-radius: 5px;
         padding: .75rem;
         width: 100%;
         max-width: 400px;
     }
 
+    form label.contactform {
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }
+
     form label.stormInfo {
         display: block;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: bolder;
         border-radius: 5px;
         padding: .75rem;
         width: 100%;
@@ -428,11 +433,11 @@ figure img{
     }
     
     form label.contactform input:required {
-        border-left: red solid 4px;
+        border-right: red solid 4px;
     }
 
     form label.contactform input:required:valid {
-        border-left: green solid 6px;
+        border-right: green solid 6px;
     }
    
     .slider {
@@ -464,14 +469,28 @@ figure img{
         padding: .5rem;
       }
 
-      form label.danger {
+      input #setblock {
           display: block;
       }
+
+      form label.danger {
+          display: block;
+          margin: 0;
+          box-sizing: border-box;
+          padding: .5rem;
+          font-size: 1.2rem;
+      }
+
+   #size {
+       font-size: 1.3rem;
+       margin: 10px;
+       font-weight: bolder;
+   }
 
       .formsize {
           width: 100%;
           max-width: 1150px;
-          margin: 0 0 2% 2%;
+          margin: 0 auto;
       }
 
       /*CSS for the Thanks Page*/
