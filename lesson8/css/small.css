@@ -365,7 +365,7 @@ figure img{
 
     form fieldset {
         margin: 1.5rem;
-        border: 1px solid #4995b0;
+        border: 2px solid #4995b0;
         border-radius: 5px;
         padding: .5rem 2%;
     }
@@ -374,14 +374,16 @@ figure img{
         color: #4995b0;
         margin: 0 1rem;
         padding: 0 .5rem;
+        font-size: 1.5rem;
+        font-weight: bolder;
     }
 
-    form label.top {
+    form label.contactform {
         display: block;
         padding-top: 1rem;
     }
 
-    form label.top input, form label.top select {
+    form label.contactform input, form label.contactform select {
         display: block;
         font-size: 1rem;
         border-radius: 5px;
@@ -390,9 +392,9 @@ figure img{
         max-width: 400px;
     }
 
-    .stormInfo {
+    form label.stormInfo {
         display: block;
-        font-size: 1rem;
+        font-size: 1.5rem;
         border-radius: 5px;
         padding: .75rem;
         width: 100%;
@@ -401,23 +403,19 @@ figure img{
 
     .button {
         border: none;
-        line-height: 2.5;
+        line-height: 2;
         padding: 5px;
-        font-size: 1rem;
+        margin: 0 0 2rem 5%;
+        font-size: 1.3rem;
         font-weight: bolder;
         width: 96%;
-        max-width: 300px;
+        max-width: 400px;
         text-align: center;
         color: white;
         text-shadow: 1px 1px 1px #000;
         border-radius: 10px;
         background-color: #4995b0;
-        background-image: linear-gradient(to top left,
-                                          rgba(0, 0, 0, .2),
-                                          rgba(0, 0, 0, .2) 30%,
-                                          rgba(0, 0, 0, 0));
-        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+        box-shadow: 5px 5px 10px #41535f;
     }
     
     .button:hover {
@@ -429,11 +427,63 @@ figure img{
                     inset 2px 2px 3px rgba(0, 0, 0, .6);
     }
     
-    form label.top input:required {
-        border-left: red solid 6px;
+    form label.contactform input:required {
+        border-left: red solid 4px;
     }
 
-    form label.top input:required:valid {
+    form label.contactform input:required:valid {
         border-left: green solid 6px;
     }
    
+    .slider {
+        -webkit-appearance: none;
+        height: 5px;
+        border-radius: 5px;
+        background: #4995b0;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        cursor: pointer;
+      }
+
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #41535f;
+      }
+
+     input.textbox, textarea, select, button {
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 400px;
+        padding: .5rem;
+      }
+
+      form label.danger {
+          display: block;
+      }
+
+      .formsize {
+          width: 100%;
+          max-width: 1150px;
+          margin: 0 0 2% 2%;
+      }
+
+      /*CSS for the Thanks Page*/
+      .thanks {
+          font-size: 4rem;
+          font-weight: bolder;
+          background: #d9d9d9;
+          width: 85%;
+          max-width: 1150;
+          margin: 10rem auto;
+          border-radius: 20px;
+          padding: 2rem;
+          box-shadow: 6px 6px 10px #41535f;
+          text-align: center;
+      }
