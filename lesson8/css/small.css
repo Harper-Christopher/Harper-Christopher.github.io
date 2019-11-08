@@ -438,6 +438,7 @@ figure img{
     }
 
     form label.contactform input:required:valid {
+        border: 1px solid grey;
         border-right:  lightgreen solid 6px;
     }
    
@@ -507,12 +508,12 @@ figure img{
 
       /*CSS for the Thanks Page*/
       .thanks {
-          font-size: 4rem;
+          font-size: 2rem;
           font-weight: bolder;
           background: #d9d9d9;
           width: 85%;
           max-width: 1150;
-          margin: 10rem auto;
+          margin: 8rem auto;
           border-radius: 20px;
           padding: 2rem;
           box-shadow: 6px 6px 10px #41535f;
