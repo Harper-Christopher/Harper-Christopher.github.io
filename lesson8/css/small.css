@@ -374,7 +374,7 @@ figure img{
         color: #4995b0;
         margin: 0 1rem;
         padding: 0 .5rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: bolder;
     }
 
@@ -383,26 +383,26 @@ figure img{
         padding-top: 1rem;
     }
 
-    form label.contactform input, form label.contactform select {
+    /*form label.contactform input, form label.contactform select {
         display: block;
         border-radius: 5px;
         padding: .75rem;
-        width: 100%;
+        width: 95%;
         max-width: 400px;
-    }
+    }*/
 
     form label.contactform {
         font-size: 1.3rem;
         font-weight: bolder;
     }
 
-    form label.stormInfo {
+    form label.stormInfo, form label.contactform input, form label.contactform select  {
         display: block;
         font-size: 1.3rem;
         font-weight: bolder;
         border-radius: 5px;
         padding: .75rem;
-        width: 100%;
+        width: 96%;
         max-width: 400px;
     }
 
@@ -410,7 +410,7 @@ figure img{
         border: none;
         line-height: 2;
         padding: 5px;
-        margin: 0 0 2rem 5%;
+        margin: 0 0 2rem;
         font-size: 1.3rem;
         font-weight: bolder;
         width: 96%;
@@ -450,6 +450,7 @@ figure img{
         -webkit-transition: .2s;
         transition: opacity .2s;
         cursor: pointer;
+        width: 96%;
       }
 
       .slider::-webkit-slider-thumb {
@@ -464,7 +465,7 @@ figure img{
      input.textbox, textarea, select, button {
         margin: 0;
         box-sizing: border-box;
-        width: 100%;
+        width: 95%;
         max-width: 400px;
         padding: .5rem;
       }
@@ -493,6 +494,13 @@ figure img{
           margin: 0 auto;
       }
 
+      .h1style {
+        color: #4995b0;
+        text-shadow: none;
+        font-weight: bolder;
+        text-shadow: 2px 2px 1px #41535f;
+    }
+
       /*CSS for the Thanks Page*/
       .thanks {
           font-size: 4rem;
@@ -505,10 +513,4 @@ figure img{
           padding: 2rem;
           box-shadow: 6px 6px 10px #41535f;
           text-align: center;
-      }
-
-      .h1style {
-          color: #4995b0;
-          text-shadow: none;
-          font-weight: bolder;
       }
