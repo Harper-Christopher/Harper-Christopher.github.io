@@ -80,4 +80,13 @@
     .weather {
         font-size: 3.5rem;
     }
+
+    /* CSS for Storm Center Page. */
+    input.button {
+        margin: 0 2rem 2rem;
+    }
+
+    .h1style {
+        font-size: 3rem;
+    }
 }
