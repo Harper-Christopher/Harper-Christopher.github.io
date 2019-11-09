@@ -434,11 +434,11 @@ figure img{
     }
     
     form label.contactform input:required {
-        border: 1px dashed red;
+        box-shadow: 0 0 3px red;
     }
 
     form label.contactform input:required:valid {
-        border: 1px solid grey;
+        box-shadow: none;
         border-right:  lightgreen solid 6px;
     }
    
@@ -500,10 +500,10 @@ figure img{
 
       .h1style {
         color: #4995b0;
-        text-shadow: none;
         font-weight: bolder;
         text-shadow: 2px 2px 1px #41535f;
         font-size: 2rem;
+        margin: 3rem auto;
     }
 
       /*CSS for the Thanks Page*/
