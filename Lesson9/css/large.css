@@ -1,0 +1,107 @@
+/* Wide Desktop view*/
+@media only screen and (min-width: 949px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigatoin li a {
+        color: #40c9a2;
+    }
+
+    footer {
+        max-width: 1175px;
+    }
+    
+    .hero, .forcast, .article, .contact {
+        max-width: 1150px;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        display: block;
+        display: block;
+        position: absolute;
+        bottom: 12px;
+        right: 16px;
+        font-size: 4rem;
+        color: white;
+    }
+
+    table {
+        max-width: 1150px;
+    }
+
+    th {
+        font-size: 1.4rem;
+    }
+
+    .message {
+        font-size: 1.7rem;
+    }
+
+    #contactinfo {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav li a {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    ol {
+        font-size: 1.3rem;
+    }
+
+    ul {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    /* CSS for gallery page */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure:hover {
+        box-shadow: 0 0 40px black;
+    }
+
+    .weather {
+        font-size: 4.3rem;
+    }
+
+    /* CSS for Thanks Page. */
+    .thanks {
+        font-size: 4rem;
+    }
+}

@@ -29,7 +29,6 @@ h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 dateOfBirth.textContent = "Date of Birth: " + prophets[i].birthdate;
 placeOfBirth.textContent = "Place of Birth: " + prophets[i].birthplace;
 prophetImage.setAttribute('src', prophets[i].imageurl);
-alt="prophets[i].name + prophets[i].lastname + "-" + i"
 
 // Adds node to the end of the list of children of specified parent node (card).
 card.appendChild(h2);
