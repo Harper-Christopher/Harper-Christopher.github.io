@@ -31,11 +31,13 @@ placeOfBirth.textContent = "Place of Birth: " + prophets[i].birthplace;
 prophetImage.setAttribute('src', prophets[i].imageurl);
 alt="prophets[i].name + prophets[i].lastname + "-" + i"
 
+// Adds node to the end of the list of children of specified parent node (card).
 card.appendChild(h2);
 card.appendChild(dateOfBirth);
 card.appendChild(placeOfBirth);
 card.appendChild(prophetImage);
 
+// Places div.card (each card) at the end of the list (one after the other) during the for loop.
 document.querySelector('div.cards').appendChild(card);
     }
 });
