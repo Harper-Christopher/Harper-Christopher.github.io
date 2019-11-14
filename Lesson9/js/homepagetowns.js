@@ -32,7 +32,8 @@ h3.textContent = towns[i].motto;
 founded.textContent = "Year Founded: " + towns[i].yearFounded;
 population.textContent = "Population: " + towns[i].currentPopulation;
 rainfall.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-townImage.setAttribute('src', towns[i].photo);
+townImage.setAttribute('src', "images/" + towns[i].photo);
+townImage.setAttribute('alt', "images/" + towns[i].name);
 
 // Adds node to the end of the list of children of specified parent node (town).
 town.appendChild(h2);

@@ -94,4 +94,31 @@
     .thanks {
         font-size: 3rem;
     }
+
+    /*CSS for Home Page */
+    .townPages h2 {
+        font-size: 2.3rem;
+    }
+
+    div.townPages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*.townPages section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .townPages section:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+    }*/
+
+    .welcome {
+        font-size: 2.5rem;
+        margin: 3rem auto;
+    }
 }
