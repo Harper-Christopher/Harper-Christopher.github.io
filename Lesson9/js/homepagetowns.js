@@ -16,7 +16,7 @@ fetch(requestURL)
     
     //Loop to go through every record and process them into their own div one at a time.
     for (let i = 0; i < towns.length; i++ ) {  
-        
+        if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
 //Variables to build HTML (build element) for town, h2, h3, founded, population, rainfall, and image.       
 let town = document.createElement('section');
 let h2 = document.createElement('h2');
@@ -44,5 +44,5 @@ town.appendChild(townImage);
 
 // Places div.card (each town) at the end of the list (one after the other) during the for loop.
 document.querySelector('div.townPages').appendChild(town);
-    }
+    }}
 });
