@@ -105,7 +105,7 @@
         flex-direction: column;
     }
 
-    /*.townPages section {
+    .townPages section {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -115,7 +115,7 @@
     .townPages section:nth-child(odd) {
         display: flex;
         flex-direction: row-reverse;
-    }*/
+    }
 
     .welcome {
         font-size: 2.5rem;

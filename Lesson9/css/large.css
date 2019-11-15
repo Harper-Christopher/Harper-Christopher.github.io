@@ -111,6 +111,16 @@
         flex-direction: row;
     }
 
+    .townPages section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .townPages section:nth-child(odd) {
+        display: flex;
+        flex-direction: column;
+    }
+
     .townPages h2 {
         font-size: 2.7rem;
     }

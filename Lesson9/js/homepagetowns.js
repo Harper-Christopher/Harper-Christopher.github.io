@@ -25,6 +25,8 @@ let founded = document.createElement('p');
 let population = document.createElement('p');
 let rainfall = document.createElement('p');
 let townImage = document.createElement('img');
+let span1 = document.createElement('span');
+let span2 = document.createElement('span');
 
 //Outputting the content to the user through the for loop. 
 h2.textContent = towns[i].name;
@@ -36,12 +38,16 @@ townImage.setAttribute('src', "images/" + towns[i].photo);
 townImage.setAttribute('alt', "images/" + towns[i].name);
 
 // Adds node to the end of the list of children of specified parent node (town).
-town.appendChild(h2);
-town.appendChild(h3);
-town.appendChild(founded);
-town.appendChild(population);
-town.appendChild(rainfall);
-town.appendChild(townImage);
+span1.appendChild(h2);
+span1.appendChild(h3);
+span1.appendChild(founded);
+span1.appendChild(population);
+span1.appendChild(rainfall);
+span2.appendChild(townImage);
+
+//Placing town information in the span element.
+town.appendChild(span1);
+town.appendChild(span2);
 
 // Places div.card (each town) at the end of the list (one after the other) during the for loop.
 document.querySelector('div.townPages').appendChild(town);
