@@ -577,3 +577,25 @@ figure img{
         border-radius: none;
         margin: 1rem auto;
     }
+
+    .wireframe {
+        background-color: #41535f;
+        width: 80%;
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem auto;
+        box-shadow: 5px 5px 3px grey;
+        border-radius: 7px;
+    }
+
+    .wireframe a {
+        color: #40c9a2;
+        text-shadow: 2px 2px 5px #36454f;
+        font-size: .8rem;
+        padding: .1rem;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .wireframe a:hover {
+        color: white;
+    }
