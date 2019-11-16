@@ -141,4 +141,9 @@
         font-size: 1.5rem;
         padding: .8rem;
     }
+
+    .townPages section:nth-child(2) {
+        flex-direction: column;
+    }
+    
 }
