@@ -597,3 +597,7 @@ figure img{
     .wireframe a:hover {
         color: white;
     }
+
+    .townPages section:nth-child(1) {order: 3;}
+    .townPages section:nth-child(2) {order: 1;}
+    .townPages section:nth-child(3) {order: 2;}
