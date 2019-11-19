@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Station Creation">
+    <meta name="author" content="Christopher Harper">
+    <title>Weather Station Creation</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Black+Ops+One%7cCabin+Sketch%7cFreckle+Face%7cFredericka+the+Great%7cPress+Start+2P%7Cabin"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body onload="RefreshDates()">
+    <div id="pancakes" class="hiddenmessage">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion.
+    </div>
+    <header>
+        <img class="logo" src="images/weatherlogo.jpg" alt="Weather Station Creation Logo photo">
+        <section class="headings">
+            <h1>Weather Station Creation</h1>
+            <div class="moto">If you don't like the weather, wait 5 minutes.</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="gallery-10.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+     <div class="thanks">Thank you for storm reporting!</div>
+
+     <div class="contact">
+        <img id="prestonmap" srcset="images/prestonmap-350w.jpg 350w,
+                                     images/prestonmap-445w.jpg 445w" sizes="(max-width: 350px) 310px,
+                                    445px" src="images/prestonmap-445w.jpg" alt="Map image of Preston Idaho.">
+        <div id="contactinfo">
+            <p><strong>Weather Station Creation</strong><br><br>
+                <img src="images/pin.jpg" alt="pin image">151 E 2nd S<br>
+                Preston, Idaho 83263<br><br>
+                ☎ 123-123-1234<br>
+                📧 <a id="email"
+                    href="mailto:weatherstationcreation@gmail.com">weatherstationcreation@gmail.com</a><br><br>
+                <a href="https://www.twitter.com/"><img src="images/twitter.jpg" alt="Twitter Icon"></a>
+                <a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
+                <a href="https://www.pinterest.com/"><img src="images/pinterest.jpg" alt="Pinterest Icon"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.jpg" alt="YouTube Icon"></a>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <h4>&copy; <span id="currentYear"></span> | Weather Creation Station | Christopher Harper
+            <!--| <a
+                href="https://www.byui.edu/online">BYUI
+                Online Learning</a>k --><br>
+            <span id="todaysDate"></span>
+        </h4>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/rating.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+/* Tablet View CSS */
+@media only screen and (min-width: 768px) {
+
+    .forcast {
+        display: block;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display: block;
+        position: absolute;
+        bottom: 12px;
+        right: 16px;
+        font-size: 3rem;
+        color: white;
+    }
+
+    th {
+        font-size: 1.1rem;
+    }
+
+    .article {
+        display: flex;
+    }
+
+    #articlepic {
+        float: right;
+    }
+
+    #prestonmap {
+       display: flex;
+       margin: 0 auto;
+       padding: 25px;
+    }
+
+    .message {
+        font-size: 1.3rem;
+    }
+
+    #contactinfo {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }    
+
+    nav li a {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    /* CSS for gallery page. */
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .weather {
+        font-size: 3.5rem;
+    }
+
+    /* CSS for Storm Center Page. */
+    input.button {
+        margin: 0 2rem 2rem;
+    }
+
+    .h1style {
+        font-size: 3rem;
+    }
+
+    /*CSS for Thanks Page. */
+    .thanks {
+        font-size: 3rem;
+    }
+
+    /*CSS for Home Page */
+    .townPages h2 {
+        font-size: 2.3rem;
+    }
+
+    div.townPages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .townPages section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*.townPages section:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+    }*/
+
+    .welcome {
+        font-size: 2.5rem;
+        margin: 3rem auto;
+    }
+
+    .wireframe {
+        width: 60%;
+    }
+
+    .wireframe a {
+        font-size: 1em;
+        padding: .5rem;
+    }
+
+    .townPages section:nth-child(1) {
+        flex-direction: row-reverse;
+    }
+    .townPages section:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+    .townPages section:nth-child(3) {
+        order: 2;
+    }
+}
