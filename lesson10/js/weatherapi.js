@@ -5,6 +5,7 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
+
     // Displays the temp by using the JS object created pulls the data from the main, and uses the temp value.
     document.getElementById('current-temp').textContent = jsObject.main.temp;
 
