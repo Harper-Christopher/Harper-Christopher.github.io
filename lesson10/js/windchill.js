@@ -61,6 +61,8 @@ fetch(forecastURL)
 
   });
 
+  for (i = 0; i <= 5; i++) {
+  days = [dayOne, dayTwo, dayThree, dayFour, dayFive];
   var currentDate = new Date();
     var currentDay = currentDate.getDay();
     if (currentDay == 0) {
@@ -85,4 +87,7 @@ fetch(forecastURL)
         var currentDay = "Sat";
     }
 
-    document.getElementById('dayOne').innerHTML = currentDay;
+
+
+    document.getElementById(days[i]).innerHTML = currentDay;
+}
