@@ -95,7 +95,7 @@ main {
     color: white;
 }
 
-#currently, #high, #windchill, #humidity, #windspeed {
+#currently, #high, #currentTemp, #windchill, #humidity, #windspeed {
     color: #40c9a2;
 }
 

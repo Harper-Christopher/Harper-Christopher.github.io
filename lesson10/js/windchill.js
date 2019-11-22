@@ -5,8 +5,10 @@ fetch(apiURL)
   .then((weatherObject) => {
     console.log(weatherObject);
 
-    document.getElementById('currently').textContent = weatherObject.weather[0].description;
-    document.getElementById('high').textContent = Math.round(weatherObject.main.temp) + "° F";
+
+    document.getElementById('currently').textContent = weatherObject.weather[0].description.toUpperCase();
+    document.getElementById('high').textContent = Math.round(weatherObject.main.temp_max) + "° F";
+    document.getElementById('currentTemp').textContent = Math.round(weatherObject.main.temp) + "° F";
     document.getElementById('humidity').textContent = weatherObject.main.humidity + "%";
     document.getElementById('windspeed').textContent = Math.round(weatherObject.wind.speed) + " mph";
 
