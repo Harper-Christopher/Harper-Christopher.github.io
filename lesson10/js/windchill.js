@@ -41,8 +41,8 @@ plusOne = 1;
 
     if (forecastObject.list[i].dt_txt.includes("18:00:00")) {
 
-        let td = forecastObject.list[i].dt;
-        let date = new Date(td * 1000);
+        let timeDate = forecastObject.list[i].dt;
+        let date = new Date(timeDate * 1000);
         let weekDays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
         let dayOfWeek = weekDays[date.getDay()];
 
