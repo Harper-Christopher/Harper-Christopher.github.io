@@ -31,52 +31,28 @@ document.getElementById("windchill").innerHTML = "N/A";
 const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=fe9fd1b6278811d8a022a086d5b14b88&units=imperial";
 fetch(forecastURL)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
+  .then((forecastObject) => {
+    console.log(forecastObject);
 
-    
+// plusOne variable to increase the element ID each time through the for loop to place data in the next element.    
 plusOne = 1;
-    for (let i = 0; i < jsObject.list.length; i++) {
 
-    if (jsObject.list[i].dt_txt.includes("18:00:00")) {
+    for (let i = 0; i < forecastObject.list.length; i++) {
 
-        document.getElementById('high' + plusOne).textContent = Math.round(jsObject.list[i].main.temp_max) + "° F";
-        document.getElementById("pic" + plusOne).setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png'); 
-        document.getElementById('pic' + plusOne).setAttribute('alt', jsObject.list[i].weather[0].description);
+    if (forecastObject.list[i].dt_txt.includes("18:00:00")) {
+
+        let td = forecastObject.list[i].dt;
+        let date = new Date(td * 1000);
+        let weekDays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+        let dayOfWeek = weekDays[date.getDay()];
+
+        document.getElementById('day' + plusOne).textContent = dayOfWeek; 
+        document.getElementById('high' + plusOne).textContent = Math.round(forecastObject.list[i].main.temp_max) + "° F";
+        document.getElementById("pic" + plusOne).setAttribute('src', 'https://openweathermap.org/img/w/' + forecastObject.list[i].weather[0].icon + '.png'); 
+        document.getElementById('pic' + plusOne).setAttribute('alt', forecastObject.list[i].weather[0].description);
         
         plusOne++;
     }
 }
 
   });
-
- /* for (i = 0; i <= 5; i++) {
-  days = [dayOne, dayTwo, dayThree, dayFour, dayFive];
-  var currentDate = new Date();
-    var currentDay = currentDate.getDay();
-    if (currentDay == 0) {
-        var currentDay = "Sun";
-    }
-    else if (currentDay == 1) {
-        var currentDay = "Mon";
-    }
-    else if (currentDay == 2) {
-        var currentDay = "Tues";
-    }
-    else if (currentDay == 3) {
-        var currentDay = "Wed";
-    }
-    else if (currentDay == 4) {
-        var currentDay = "Thurs";
-    }
-    else if (currentDay == 5) {
-        var currentDay = "Fri";
-    }
-    else if (currentDay == 6) {
-        var currentDay = "Sat";
-    }
-
-
-
-    document.getElementById(days[i]).innerHTML = currentDay;
-}*/
