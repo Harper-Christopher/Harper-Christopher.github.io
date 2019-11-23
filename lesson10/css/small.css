@@ -37,7 +37,7 @@ header {
 
 main {
     margin: 0 auto;
-    min-width: 320px;
+    width: 92%;
 }
 
 .preston {
@@ -199,6 +199,7 @@ td {
     text-align: center;
     color: black;
     font-size: 1.4rem;
+    width: 92%;
 }
 
 #contactinfo {
@@ -228,6 +229,7 @@ footer {
     border-radius: 0 0 15px 15px;
     margin: 0 auto;
     text-align: center;
+    width: 93%;
 }
 
 .headings {
@@ -369,8 +371,8 @@ figcaption {
     border: 2px solid black;
     padding: 5px;
     margin: 0;
-    background-color: #36454f;
-    color: #ffffff;
+    background-color: #d9d9d9;
+    color: black;
 }
 
 figure img{
