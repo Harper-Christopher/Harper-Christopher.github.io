@@ -13,7 +13,7 @@ fetch(requestURL)
 
     //Store results of the converted response. 
     const towns = jsonObject['towns'];
-    
+
     //Loop to go through every record and process them into their own div one at a time.
     for (let i = 0; i < towns.length; i++ ) {  
         if (towns[i].name == "Preston") {
@@ -31,8 +31,8 @@ h4.textContent = "Upcoming Events: "
 event1.textContent = towns[i].events[0];
 event2.textContent = towns[i].events[1];
 event3.textContent = towns[i].events[2];
-townImage.setAttribute('src', "images/" + towns[i].photo);
-townImage.setAttribute('alt', "images/" + towns[i].name);
+townImage.setAttribute('src', "images/liberty.jpg");
+townImage.setAttribute('alt', "Statue Of Liberty");
 
 // Adds node to the end of the list of children of specified parent node (town).
 town.appendChild(h4);
