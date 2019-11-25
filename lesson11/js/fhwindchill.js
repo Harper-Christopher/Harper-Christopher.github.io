@@ -1,5 +1,5 @@
 /* JavaScript to display current conditions in the weather summary. */
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=fe9fd1b6278811d8a022a086d5b14b88&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=fe9fd1b6278811d8a022a086d5b14b88&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherObject) => {

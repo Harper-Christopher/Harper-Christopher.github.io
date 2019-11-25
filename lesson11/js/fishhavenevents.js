@@ -33,8 +33,8 @@ event1.textContent = towns[i].events[0];
 event2.textContent = towns[i].events[1];
 event3.textContent = towns[i].events[2];
 event4.textContent = towns[i].events[3];
-townImage.setAttribute('src', "images/" + towns[i].photo);
-townImage.setAttribute('alt', "images/" + towns[i].name);
+townImage.setAttribute('src', "images/christmastree.jpg");
+townImage.setAttribute('alt', "Town Christmas Tree Event");
 
 // Adds node to the end of the list of children of specified parent node (town).
 town.appendChild(h4);
