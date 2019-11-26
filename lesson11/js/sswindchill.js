@@ -30,7 +30,7 @@ document.getElementById("windchill").innerHTML = "N/A";
 
 
 // JavaScript to display data for the 5 day forecast.
-const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=fe9fd1b6278811d8a022a086d5b14b88&units=imperial";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=fe9fd1b6278811d8a022a086d5b14b88&units=imperial";
 fetch(forecastURL)
   .then((response) => response.json())
   .then((forecastObject) => {
