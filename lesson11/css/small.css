@@ -126,6 +126,7 @@ div.announcements {
     opacity: 1;
     font-size: 11px;
     margin: 1rem .9rem;
+    z-index: 1;
 }
 
 .stats p {
