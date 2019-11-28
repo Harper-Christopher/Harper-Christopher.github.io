@@ -173,7 +173,7 @@ td {
     background-color: #d9d9d9;
     box-shadow: 0 0 10px black;
     border-radius: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 .author {
@@ -189,7 +189,6 @@ td {
 .articlep {
     padding: 20px;
     color: black;
-   
 }
 
 .contact {
@@ -421,7 +420,7 @@ figure img{
     form legend {
         color: black;
         margin: 0 1rem;
-        padding: 0 .5rem;
+        padding: 1rem .5rem;
         font-size: 1.3rem;
         font-weight: bolder;
     }
@@ -451,7 +450,7 @@ figure img{
         border-radius: 5px;
         padding: .75rem;
         width: 95%;
-        max-width: 400px;
+        max-width: 500px;
     }
 
     input.button {
@@ -515,7 +514,7 @@ figure img{
         margin: 0;
         box-sizing: border-box;
         width: 95%;
-        max-width: 400px;
+        max-width: 500px;
         padding: .5rem;
       }
 
@@ -575,6 +574,7 @@ figure img{
         padding: 1rem;
         margin: 1rem auto;
         box-shadow: 0 0 7px black;
+        border-radius: .7rem;
       }
 
       .townPages section {
@@ -656,6 +656,7 @@ figure img{
         padding: 1rem;
         margin: 1rem auto;
         box-shadow: 0 0 7px black;
+        border-radius: .7rem;
     }
 
     div#weatherStory {
