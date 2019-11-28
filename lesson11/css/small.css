@@ -10,6 +10,8 @@ body {
     border-style: solid;
     border-color: #d9d9d9;
     border-radius: 1rem;
+    max-width: 75px;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .hiddenmessage {
@@ -236,7 +238,7 @@ footer {
 }
 
 .headings {
-    margin: 0 0 0 17px;
+    margin: 0 1rem;
 }
 
 .moto {

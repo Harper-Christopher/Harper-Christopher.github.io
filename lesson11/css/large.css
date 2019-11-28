@@ -40,6 +40,10 @@
         color: white;
     }
 
+    .logo {
+        max-width: 120px;
+    }
+
     th {
         font-size: 1.6rem;
     }
