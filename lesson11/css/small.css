@@ -224,6 +224,7 @@ td {
     display: none;
     max-width: 100%;
     min-width: 0;
+    max-height: 304px;
 }
 
 footer {
